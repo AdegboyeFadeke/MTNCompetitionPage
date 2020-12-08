@@ -1,44 +1,42 @@
-                        body {
-                            padding: 0;
-                            margin: 0;
-                            min-height: 90vh;
-                        }
-                        
-                        .container {
-                            justify-content: center;
-                            align-items: center;
-                        }
-                        
-                        div {
-                            text-align: center;
-                            font-family: Georgia, 'Times New Roman', Times, serif;
-                            font-size: 20px;
-                            margin-top: 60px;
-                        }
-                        
-                        .you {
-                            font-size: 12px;
-                            font-family: monospace;
-                        }
-                        
-                        .go {
-                            background-color: yellow;
-                            border-radius: 20px;
-                            border: 5px solid yellow;
-                            display: flex;
-                            margin-bottom: 20px;
-                            justify-content: center;
-                            align-items: center;
-                        }
-                        
-                        .share {
-                            border: 5px solid yellow;
-                            border-radius: 20px;
-                            background-color: yellow;
-                            display: flex;
-                        }
-                        
-                        .blue {
-                            color: blue;
-                            text-align: center;
-                        }
+body {
+  padding: 0;
+  margin: 0;
+  /* min-height: 90vh; */
+  font-family: monospace;
+}
+
+.container {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+div {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+p {
+  font-size: 14px;
+}
+
+button {
+  margin-top: 30px;
+  background-color: yellow;
+  border-radius: 20px;
+  border: 5px solid yellow;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.blue {
+  color: blue;
+  text-align: center;
+}
